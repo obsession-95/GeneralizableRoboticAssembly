@@ -1,0 +1,11 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "outline.showVariables": false,     //大纲视图就只显示类名和函数名
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "python-envs.pythonProjects": []
+}
