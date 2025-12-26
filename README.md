@@ -10,7 +10,7 @@ The core directories and files are as follows:
 - **`data/`**: Stores visual datasets, experimental data.
 - **`draw/`**: Scripts for plotting experimental results and data visualization.
 - **`envs/`**: Reinforcement learning training environments.
-- **`model/`**: Pre-trained models, including visual feature extraction networks and RL policy models.
+- **`model/`**: Trained models, including visual feature extraction networks and RL policy models.
 - **`robot_control/`**: Robot control interfaces, and handlers for reading/processing data from vision and force/torque sensors.
 - **`scenes/`**: CoppeliaSim simulation scenes. The main scene is `SkillGeneralization_vision.ttt`.
 - **`support_files/`**: Configuration files for the CoppeliaSim Remote API to enable Python communication.
@@ -37,7 +37,7 @@ The core directories and files are as follows:
 - **Insertion Skill**: `python insert_SAC.py`
 
 ## 🔧 Key Configuration
-*   The mode (Simulation **SIM** or Physical **REAL**) is configured within the `envs/` directory.
+*   The mode (Simulation **SIM** or Physical **REAL**) is configured within the `envs/`.
 *   Update model paths in the main scripts (`SAC_process.py`, `*_SAC.py`) if your trained models are stored in a non-default location.
 
 ## 📈 Results and Plots
